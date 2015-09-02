@@ -1,0 +1,92 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json IM@0.0.1 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'E:\\pjax', [ 'express', 'routes', 'ejs', 'path', 'fs' ] ]
+8 info preinstall IM@0.0.1
+9 warn package.json path@0.11.14 path is also the name of a node core module.
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping express@* E:\pjax
+12 verbose already installed skipping routes@* E:\pjax
+13 verbose already installed skipping ejs@* E:\pjax
+14 verbose already installed skipping path@* E:\pjax
+15 verbose cache add [ 'fs@*s', null ]
+16 verbose cache add name=undefined spec="fs@*s" args=["fs@*s",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'fs@*s',
+17 verbose parsed url   path: 'fs@*s',
+17 verbose parsed url   href: 'fs@*s' }
+18 verbose cache add name="fs" spec="*s" args=["fs","*s"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '*s',
+19 verbose parsed url   path: '*s',
+19 verbose parsed url   href: '*s' }
+20 verbose addNamed [ 'fs', '*s' ]
+21 verbose addNamed [ null, null ]
+22 silly lockFile 7b7a3c14-fs-s fs@*s
+23 verbose lock fs@*s C:\Users\wangxing\AppData\Roaming\npm-cache\7b7a3c14-fs-s.lock
+24 info addNameTag [ 'fs', '*s' ]
+25 verbose request where is /fs
+26 verbose request registry https://registry.npmjs.org/
+27 verbose request id 59b523d274bbf497
+28 verbose url raw /fs
+29 verbose url resolving [ 'https://registry.npmjs.org/', './fs' ]
+30 verbose url resolved https://registry.npmjs.org/fs
+31 verbose request where is https://registry.npmjs.org/fs
+32 info trying registry request attempt 1 at 11:23:17
+33 verbose etag "3L31VQWPYJLGLUTV9OUYSCJRB"
+34 http GET https://registry.npmjs.org/fs
+35 http 200 https://registry.npmjs.org/fs
+36 silly registry.get cb [ 200,
+36 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+36 silly registry.get     etag: '"369U4SXK8GCRVD0W4EDRYVLGT"',
+36 silly registry.get     'content-type': 'application/json',
+36 silly registry.get     'cache-control': 'max-age=60',
+36 silly registry.get     'content-length': '1611',
+36 silly registry.get     'accept-ranges': 'bytes',
+36 silly registry.get     date: 'Wed, 02 Sep 2015 03:20:50 GMT',
+36 silly registry.get     via: '1.1 varnish',
+36 silly registry.get     age: '35',
+36 silly registry.get     connection: 'keep-alive',
+36 silly registry.get     'x-served-by': 'cache-nrt6132-NRT',
+36 silly registry.get     'x-cache': 'HIT',
+36 silly registry.get     'x-cache-hits': '1',
+36 silly registry.get     'x-timer': 'S1441164050.055856,VS0,VE0',
+36 silly registry.get     vary: 'Accept' } ]
+37 silly lockFile 7b7a3c14-fs-s fs@*s
+38 silly lockFile 7b7a3c14-fs-s fs@*s
+39 error notarget No compatible version found: fs@'*s'
+39 error notarget Valid install targets:
+39 error notarget ["0.0.0","0.0.2"]
+39 error notarget
+39 error notarget This is most likely not a problem with npm itself.
+39 error notarget In most cases you or one of your dependencies are requesting
+39 error notarget a package version that doesn't exist.
+40 error System Windows_NT 6.1.7601
+41 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+42 error cwd E:\pjax
+43 error node -v v0.10.33
+44 error npm -v 1.4.28
+45 error code ETARGET
+46 verbose exit [ 1, true ]
